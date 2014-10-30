@@ -22,6 +22,7 @@
 		C54EA36B1A01E44600FC79B7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54EA34F1A01E44600FC79B7 /* CoreData.framework */; };
 		C54EA3731A01E44600FC79B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C54EA3711A01E44600FC79B7 /* InfoPlist.strings */; };
 		C54EA3751A01E44600FC79B7 /* SimpleWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C54EA3741A01E44600FC79B7 /* SimpleWeatherTests.m */; };
+		C54EA3801A01E49800FC79B7 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C54EA37F1A01E49800FC79B7 /* BIDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C54EA3701A01E44600FC79B7 /* SimpleWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWeatherTests-Info.plist"; sourceTree = "<group>"; };
 		C54EA3721A01E44600FC79B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C54EA3741A01E44600FC79B7 /* SimpleWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWeatherTests.m; sourceTree = "<group>"; };
+		C54EA37E1A01E49800FC79B7 /* BIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		C54EA37F1A01E49800FC79B7 /* BIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				C54EA3601A01E44600FC79B7 /* Images.xcassets */,
 				C54EA35D1A01E44600FC79B7 /* SimpleWeather.xcdatamodeld */,
 				C54EA3521A01E44600FC79B7 /* Supporting Files */,
+				C54EA37E1A01E49800FC79B7 /* BIDViewController.h */,
+				C54EA37F1A01E49800FC79B7 /* BIDViewController.m */,
 			);
 			path = SimpleWeather;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54EA3801A01E49800FC79B7 /* BIDViewController.m in Sources */,
 				C54EA35C1A01E44600FC79B7 /* BIDAppDelegate.m in Sources */,
 				C54EA3581A01E44600FC79B7 /* main.m in Sources */,
 				C54EA35F1A01E44600FC79B7 /* SimpleWeather.xcdatamodeld in Sources */,
